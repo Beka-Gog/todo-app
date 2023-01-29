@@ -2,7 +2,7 @@ import functions
 import time
 
 now = time.strftime("%b %d, %Y %H:%M:%S")
-print("It is", now)
+print("It is" , now)
 
 while True:
     user_action = input("type add, show, complete or exit: ")
